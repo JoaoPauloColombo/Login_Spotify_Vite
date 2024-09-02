@@ -46,7 +46,6 @@ Clone o repositório:
 Copiar código
 ```bash
 git clone https://github.com/joaopaulo/spotify-login.git
-###Navegue até o diretório do projeto:
 ```
 Copiar código
 ```bash
