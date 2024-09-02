@@ -1,0 +1,43 @@
+  * {
+    box-sizing: border-box;
+
+  }
+  body {
+    background: #000;
+  }
+  header {
+    width: 100%;
+    text-align: center;
+  }
+  .title {
+    font-family: Moderne Sans, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    letter-spacing: .5rem;
+    color: #1DB954;
+    font-weight: 1000;
+  }
+
+  .logo{
+    width: 5%;
+    height: 5%;
+    margin: 10px;
+  }
+
+  nav{
+    display: flex;
+    justify-content:  space-between;
+  }
+  nav a {
+    text-decoration: none;
+    padding: 4rem;
+    color: #1DB954;
+    font-weight: 800;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+
+  }
+  nav a:hover {
+    text-decoration: none;
+    color: #ffffff;
+  }
