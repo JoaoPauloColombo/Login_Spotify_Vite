@@ -1,8 +1,66 @@
-# React + Vite
+# Spotify Login Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+Este projeto é uma implementação de uma página de login para o Spotify, desenvolvida em React utilizando o Vite como ferramenta de construção. O objetivo principal foi criar e reutilizar componentes, além de utilizar propriedades (props) para passar informações entre eles. Ao submeter o formulário de login, os dados inseridos são exibidos no console do navegador.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para criação de interfaces de usuário.
+- **Vite**: Ferramenta de construção rápida para projetos front-end.
+- **CSS**: Estilização personalizada da página de login.
+
+## Funcionalidades
+
+- **Formulário de Login**: Inclui campos para nome de usuário e senha.
+- **Exibição de Dados no Console**: Ao submeter o formulário, os dados são capturados e exibidos no console do navegador.
+- **Componentes Reutilizáveis**: Estrutura do projeto modularizada com componentes React.
+
+## Estrutura do Projeto
+
+```bash
+📦spotify-login
+ ┣ 📂public
+ ┣ 📂src
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📜Header.jsx
+ ┃ ┃ ┣ 📜Forms.jsx
+ ┃ ┃ ┗ 📜Footer.jsx
+ ┃ ┣ 📂styles
+ ┃ ┃ ┣ 📜App.css
+ ┃ ┃ ┣ 📜Header.css
+ ┃ ┃ ┣ 📜Forms.css
+ ┃ ┃ ┗ 📜Footer.css     
+ ┃ ┣ 📜App.jsx
+ ┃ ┗ 📜main.jsx
+ ┣ 📜index.html
+ ┣ 📜package.json
+ ┗ 📜vite.config.js
+```
+# Como Executar o Projeto
+## Siga as instruções abaixo para clonar e executar o projeto localmente:
+
+Clone o repositório:
+
+bash
+Copiar código
+git clone https://github.com/joaopaulo/spotify-login.git
+Navegue até o diretório do projeto:
+
+bash
+Copiar código
+cd spotify-login
+Instale as dependências:
+
+bash
+Copiar código
+npm install
+Execute o projeto:
+
+bash
+Copiar código
+npm run dev
+Acesse o projeto: Abra o navegador e vá para http://localhost:3000.
+
+#Exemplo de Uso
+##Ao carregar a página, você verá um formulário de login com campos para nome de usuário e senha. Após preencher e submeter o formulário, os dados inseridos serão exibidos no console do navegador.
