@@ -1,12 +1,17 @@
+// Importa o arquivo de estilos CSS para o componente Footer
 import '../Style/Footer.css'
 
+// Define o componente Footer
 function Footer() {
     return (
         <>
+            {/* Contêiner principal com classe para estilização */}
             <div className="footer-clean">
                 <footer>
                     <div className="container">
+                        {/* Linha que organiza os itens no rodapé */}
                         <div className="row justify-content-center">
+                            {/* Seção para links relacionados a exploração */}
                             <div className="col-sm-4 col-md-3 item">
                                 <h3>Explore</h3>
                                 <ul>
@@ -15,6 +20,7 @@ function Footer() {
                                     <li><a href="#">Download</a></li>
                                 </ul>
                             </div>
+                            {/* Seção para informações sobre a empresa */}
                             <div className="col-sm-4 col-md-3 item">
                                 <h3>Empresa</h3>
                                 <ul>
@@ -23,6 +29,7 @@ function Footer() {
                                     <li><a href="#">Para o Registro</a></li>
                                 </ul>
                             </div>
+                            {/* Seção para comunidades e parcerias */}
                             <div className="col-sm-4 col-md-3 item">
                                 <h3>Comunidades</h3>
                                 <ul>
@@ -33,6 +40,7 @@ function Footer() {
                                     <li><a href="#">Fornecedores</a></li>
                                 </ul>
                             </div>
+                            {/* Seção para ícones de redes sociais e copyright */}
                             <div className="col-lg-3 item social">
                                 <a href="#"><i className="icon ion-social-facebook"></i></a>
                                 <a href="#"><i className="icon ion-social-twitter"></i></a>
@@ -48,4 +56,5 @@ function Footer() {
     )
 }
 
+// Exporta o componente Footer para ser usado em outras partes da aplicação
 export default Footer;
