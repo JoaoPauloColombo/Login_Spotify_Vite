@@ -12,7 +12,7 @@ Este projeto é uma implementação de uma página de login para o Spotify, dese
 
 ## Funcionalidades
 
-- **Formulário de Login**: Inclui campos para nome de usuário e senha.
+- **Formulário de Login**: Inclui campos para nome de usuário, email e senha.
 - **Exibição de Dados no Console**: Ao submeter o formulário, os dados são capturados e exibidos no console do navegador.
 - **Componentes Reutilizáveis**: Estrutura do projeto modularizada com componentes React.
 
@@ -62,6 +62,5 @@ Copiar código
 ```bash
 npm run dev
 ```
-Acesse o projeto: Abra o navegador e vá para http://localhost:3000.
 Exemplo de Uso
-Ao carregar a página, você verá um formulário de login com campos para nome de usuário e senha. Após preencher e submeter o formulário, os dados inseridos serão exibidos no console do navegador.
+Ao carregar a página, você verá um formulário de login com campos para nome de usuário, email e senha. Após preencher e submeter o formulário, os dados inseridos serão exibidos no console do navegador.
