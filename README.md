@@ -42,22 +42,17 @@ Este projeto é uma implementação de uma página de login para o Spotify, dese
 
 Clone o repositório:
 
-
-Copiar código
 ```bash
 git clone https://github.com/joaopaulo/spotify-login.git
 ```
-Copiar código
 ```bash
 cd spotify-login
 ```
 Instale as dependências:
-Copiar código
 ```bash
 npm install
 ```
 Execute o projeto:
-Copiar código
 ```bash
 npm run dev
 ```
